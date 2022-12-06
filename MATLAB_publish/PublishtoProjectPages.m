@@ -1,6 +1,6 @@
 function PublishtoProjectPages(scriptfilename)
 
-opts = struct('format','xml','outputDir','published','imageFormat','png');
+opts = struct('format','xml','outputDir','docs/_posts/published','imageFormat','png');
 filepath = publish(scriptfilename,opts);
 
 fid = fopen(filepath);
@@ -25,7 +25,7 @@ for i = 1:length(Data)
     end
 end
 
-cd published
+cd docs/_posts/published
 
 fileID = fopen('aligned.xml','w');
 
