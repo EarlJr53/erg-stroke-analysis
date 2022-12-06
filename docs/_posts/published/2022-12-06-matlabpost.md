@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      New Matlab Script
-date:       2016-05-02 
+title:      Erg Analysis V1
+date:       2022-12-06
 author:     Ahmet Cecen
 tags: 		matlab workflows
 subtitle:   Some Short Description of the Script
